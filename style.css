@@ -7,7 +7,7 @@
 
 body{
     text-align: center;
-    background-color: linear-gradiet(to botton,rgb(241, 6, 162), rgb(164,36,225));
+    background-color: linear-gradient(to bottom,rgb(241, 6, 162), rgb(164,36,225));
 
 }
 
@@ -18,7 +18,7 @@ main{
     padding: 15px;
 }
 
-.pokede{
+.pokedex{
     width: 100%;
     max-width: 425px;
 }
@@ -31,14 +31,14 @@ main{
     height: 18%;
 }
 
-pokemon_data(
+.pokemon_data{
     position: absolute;
     font-weight: 600px;
     color: blueviolet;
     top: 54.5%;
     :right: 27%;
     font-size: clamp(8px, 5vw,24ṕx);
-)
+}
 
 .pokemon_name{
     color:red(284, 23, 23)
