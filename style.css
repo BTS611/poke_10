@@ -36,11 +36,11 @@ main{
     font-weight: 600px;
     color: blueviolet;
     top: 54.5%;
-    :right: 27%;
-    font-size: clamp(8px, 5vw,24ṕx);
+    right: 27%;
+    font-size: clamp(8px, 5vw,24px);
 }
 
 .pokemon_name{
-    color:red(284, 23, 23)
+    color:rgb(284, 23, 23);
     text-transform: capitalize;
 }
