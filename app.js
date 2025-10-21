@@ -23,10 +23,10 @@ const fetchpokemon = async (pokemon) => {
 
 const renderPokemon = async (pokemon)=> {
     const data = await fetchpokemon(pokemon)
-    ImageTrack(data){
+    if(data){
         pokemon_name.innerHTML = data.name;
         pokemon_number.innerHTML = data.id;
-        pokemon_img.src= data[`sprites`][`versions`][`generation-v`][`black-white`][`animated`][`front_default`];
+        pokemon_img.src = data[`sprites`][`versions`][`generation-v`][`black-white`][`animated`][`front_default`];
     } else{
         pokemon_name.innerHTML = `Não Encontrado`;
         pokemon_number.innerHTML = ``
