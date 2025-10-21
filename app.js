@@ -50,3 +50,10 @@ pokemon_prev.addEventListener("click", ()=>{
         renderPokemon(searchPokemon)
 }
 })
+
+pokemon_next.addEventListener("click", ()=>{
+    searchPokemon +=1
+    renderPokemon(searchPokemon)
+})
+
+renderPokemon(searchPokemon)
